@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("imagens/criacaodomundo/Mapa-1500.png");
+}
+h1{
+    background-color: #f9d8a7;
+    font-size: 36px;
+}
