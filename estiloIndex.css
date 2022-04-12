@@ -1,9 +1,50 @@
 @charset "UTF-8";
 
 body{
-    background-image: url("imagens/criacaodomundo/Mapa-1500.png");
+    min-height: 100%;
+    margin: 0%;
+    padding: 0%;
 }
-h1{
-    background-color: #f9d8a7;
-    font-size: 36px;
+
+html { 
+    background: url(imagens/criacaodomundo/Mapa-1500.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#titulo {
+    background-color: #f2eecb;
+    font-size: 24px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
+}
+
+
+#sumario {
+    background-color: #f2eecb;
+    font-size: 18px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
+
+}
+
+#art_recentes{
+    background-color: #f2eecb;
+    font-size: 18px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
+
+}
+
+#art_mais_lido{
+    background-color: #f2eecb;
+    font-size: 18px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
+
+}
+
+#musica{
+    background-color: #f2eecb;
+    font-size: 18px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
 }
