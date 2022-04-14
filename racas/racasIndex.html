@@ -6,48 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Raças de Eternea</title>
+    <link rel="stylesheet" href="estiloracas.css">
 </head>
 <body>
     <a href="../index.html">Página Principal</a>
-    <h1>Raças de Eternea</h1>
-    <hr>
-    <ol>
-        <li>Anões</li>
-        <li>Elfos</li>
-            <ul type="circle">
-                <li>Altos Elfos</li>
-                <li>Elfos da Floresta</li>
-            </ul>
-        <li>Halflings</li>
-        <li>Humanos</li>
-        <li>Exilados</li>
-    </ol>
-    <hr>
-    <h2>Anões</h2>
-    <img src="../imagens/racas/anoes.png" alt="Anões">
-    <p><small>Fonte: <a href="https://pin.it/42rwTWw" rel="external" target="_blank">https://pin.it/42rwTWw</a></small></p>
-    <p>
-        Os filhos de <strong>Barenor</strong> são uma raça gananciosa e comercial, eles extraem sua riqueza nos profundos de suas montanhas, suas cidades são construídas dentro de ravinas e grandes cavernas. 
-	    Os Anões são um povo <strong>forte e independente</strong>, resistindo a influência humana a leste e élfica a oeste, seus soldados são considerados os melhores do continente, muitas vezes sendo usados como mercenários em guerras de outros.	
-	    Eles são um povo insular, não confiando em outras raças e se mantendo neutro na maioria dos conflitos, mesmo suas cidades sendo abertas a todos, muitos não passam dos mercados e poucos chegam a falar com as autoridades.
-    </p>
-    <hr>
+    <div id = "racasTitulo">
+        <h1>Raças de Eternea</h1>
+        <hr>
+    </div>
+    <div id="racasSumario">
+        <ol>
+            <li><a href="#racasAnoes">Anões</a></li>
+            <li><a href="#racasElfos">Elfos</a></li>
+                <ul type="circle">
+                    <li><a href="#racasElfos">Altos Elfos</a></li>
+                    <li><a href="#racasElfos">Elfos da Floresta</a></li>
+                </ul>
+            <li><a href="#racasHalflings">Halflings</a></li>
+            <li><a href="#racasHumanos">Humanos</a></li>
+            <li><a href="#racasExilados">Exilados</a></li>
+        </ol>
+        <hr>
+    </div>
 
-    <h2>Elfos</h2>
-    <hr>
-    <h3>Altos Elfos</h3>
-    <img src="../imagens/racas/elfos.png" alt="Altos Elfos">
-    <p><small>Fonte: <a href="https://pin.it/3PDWRoz">https://pin.it/3PDWRoz</a> </small></p>
-    <p>
-        Os filhos de Magnus, como eles chamam o Deus do Conhecimento, são um povo <strong>antigo e sábio</strong>. Suas cidades abrigam grandes bibliotecas que possuem livros que datam de séculos atrás.
-	    Os Altos Elos, como outras raças os chamam, são conhecidos como magos e feiticeiros de grande poder e influência. Eles são um dos povos mais hospitaleiros do continente, recebendo todos com braços abertos sendo eles anões ou humanos.
-        As cidades flutuantes dos Altos Elfos são governadas por Vice-Reis apontados diretamente pela Rainha que reina de seu Trono de Rubi.
-        Em assuntos mágicos, muitos Alto Elfos procuram o conselho da <strong>Torre de Feredin</strong>, um dos mais antigos colégios magia no continente e um com uma das maiores coleções de itens e livros mágicos. No entanto, esse conselho não vem barato já que a torre cobra caro por seus conhecimentos.
-    </p>
-    <hr>
-    <h3>Elfos da Floresta</h3>
-    <img src="../imagens/racas/elfosfloresta.png" alt="Elfos da Floresta">
-    <p><small>Fonte: </small></p>
+    <div id="racasAnoes">
+        <h2 class = "nomesRacas">Anões</h2>
+        <hr>
+        <!--<img src="../imagens/racas/anoes.png" alt="Anões">
+        <p><small>Fonte: <a href="https://pin.it/42rwTWw" rel="external" target="_blank">https://pin.it/42rwTWw</a></small></p>-->
+        <p>
+            Os filhos de <strong>Barenor</strong> são uma raça gananciosa e comercial, eles extraem sua riqueza nos profundos de suas montanhas, suas cidades são construídas dentro de ravinas e grandes cavernas. 
+            Os Anões são um povo <strong>forte e independente</strong>, resistindo a influência humana a leste e élfica a oeste, seus soldados são considerados os melhores do continente, muitas vezes sendo usados como mercenários em guerras de outros.	
+            Eles são um povo insular, não confiando em outras raças e se mantendo neutro na maioria dos conflitos, mesmo suas cidades sendo abertas a todos, muitos não passam dos mercados e poucos chegam a falar com as autoridades.
+        </p>
+        <hr>
+    </div>
+    <div id="racasElfos">
+        <h2 class = "nomesRacas">Elfos</h2>
+        <hr>
+        <h3>Altos Elfos</h3>
+        <!--<img src="../imagens/racas/elfos.png" alt="Altos Elfos">
+        <p><small>Fonte: <a href="https://pin.it/3PDWRoz">https://pin.it/3PDWRoz</a> </small></p>-->
+        <p>
+            Os filhos de Magnus, como eles chamam o Deus do Conhecimento, são um povo <strong>antigo e sábio</strong>. Suas cidades abrigam grandes bibliotecas que possuem livros que datam de séculos atrás.
+	        Os Altos Elos, como outras raças os chamam, são conhecidos como magos e feiticeiros de grande poder e influência. Eles são um dos povos mais hospitaleiros do continente, recebendo todos com braços abertos sendo eles anões ou humanos.
+            As cidades flutuantes dos Altos Elfos são governadas por Vice-Reis apontados diretamente pela Rainha que reina de seu Trono de Rubi.
+            Em assuntos mágicos, muitos Alto Elfos procuram o conselho da <strong>Torre de Feredin</strong>, um dos mais antigos colégios magia no continente e um com uma das maiores coleções de itens e livros mágicos. No entanto, esse conselho não vem barato já que a torre cobra caro por seus conhecimentos.
+        </p>
+        
+        <h3>Elfos da Floresta</h3>
+        <!-- <img src="../imagens/racas/elfosfloresta.png" alt="Elfos da Floresta">
+        <p><small>Fonte: </small></p>-->
         <p>
             <EM>“Nunca entre sozinho nas florestas de Oladdra ou sem permissão, a não ser que você deseje uma morte rápida”</EM> -Famoso provérbio Draconato
         </p>
@@ -57,31 +66,40 @@
             Não parece haver uma autoridade central acima desse conselho de druidas, no entanto alguns rumores mais fantasiosos dizem que a própria Oladdra guia o povo das florestas.
             Para assuntos mágicos, os Elfos da Floresta procuram o conselho de seus Druidas que estão mais do que felizes em dividir o seu conhecimento.
         </p>
-    <hr>
-    <h2>Halflings</h2>
-    <img src="../imagens/racas/halflings.png" alt="Halflings">
-    <p><small>Fonte: <a href="http://lanebrownart.blogspot.com/2013/02/i-recenely-illustrated-some-characters.html">http://lanebrownart.blogspot.com/2013/02/i-recenely-illustrated-some-characters.html</a></small></p>
+        <hr>
+    </div>
+    <div id="racasHalflings">
+        <h2 class = "nomesRacas">Halflings</h2>
+        <hr>
+        <!--<img src="../imagens/racas/halflings.png" alt="Halflings">
+        <p><small>Fonte: <a href="http://lanebrownart.blogspot.com/2013/02/i-recenely-illustrated-some-characters.html">http://lanebrownart.blogspot.com/2013/02/i-recenely-illustrated-some-characters.html</a></small></p>-->
         <p>
             Halflings são os comerciantes, os contadores, os administradores das guildas dos Anões. Eles possuem uma aptidão natural para o comércio, mas nem todos o usam, muitos Halflings encontram trabalhos em bandas ou em carnavais ambulantes.
             Estes pequenos seres não parecem ter uma organização interna como as outras raças, sendo mais ligados ao seu grupo ou família do que a sua raça .
             Eles parecem compartilhar sua inabilidade com a magia de seus vizinhos anões, já que nem um Halfling mago ou feiticeiro jamais existiu.
-            </p>
-    <hr>
+        </p>
+        <hr>
+    </div>
 
-    <h2>Humanos</h2>
-    <img src="../imagens/racas/humanos.png" alt="Humanos">
-    <p><small>Fonte: <a href="https://pin.it/66Za2J2">https://pin.it/66Za2J2</a> </small></p>
+    <div id="racasHumanos">
+        <h2 class="nomesRacas">Humanos</h2>
+        <hr>
+        <!--<img src="../imagens/racas/humanos.png" alt="Humanos">
+        <p><small>Fonte: <a href="https://pin.it/66Za2J2">https://pin.it/66Za2J2</a> </small></p>-->
         <p>
             A Humanidade ocupa toda a costa leste do continente, uma vez dividida em diversos reinos agora unida em um grande império que se estende das Montanhas de Barenor  até o Mare Pacificum.
             O Povo Humano se viu unido sob a<strong> Imperatriz Eterna</strong> nos últimos 200 anos, não se sabe se é a mesma pessoa ou uma dinastia, e seu exército de burocratas que administram eficientemente o império.
             Humanos são um dos povos mais diversificados em existência, há os melhores e piores entre eles.
             Em assuntos mágicos, os humanos procuram os conselhos das <strong>Academias de Magia</strong> espalhadas pelas grandes cidades. 
         </p>
-    <hr>
+    </div>
+    
+    <div id="racasDraconatos">
+        <h2 class = "nomesRacas">Draconatos</h2>
+        <hr>
 
-    <h2>Draconatos</h2>
-    <img src="../imagens/racas/Draconatos.png" alt="Draconatos">
-    <p><small>Fonte: <a href="https://pin.it/3mux5V4">https://pin.it/3mux5V4</a></small></p>
+        <!--<img src="../imagens/racas/Draconatos.png" alt="Draconatos">
+        <p><small>Fonte: <a href="https://pin.it/3mux5V4">https://pin.it/3mux5V4</a></small></p>-->
         <p>
             Os <strong>filhos de Dracul</strong>, o primeiro draconato segundo suas lendas, são um povo nômade e tribal, eles viagem de norte a sul dos planaltos entre as Montanhas de Barenor e as Florestas de Oladdra.
 	        Enquanto são divididos internamente em linhas tribais, uma ofensa contra uma tribo é uma ofensa contra todas, principalmente se feita por um forasteiro.
@@ -90,16 +108,18 @@
 	        Em assuntos mágicos, não há uma organização central, mas, por serem descendentes de dragões, muitos feiticeiros existem nas tribos, sendo o seu número abaixo apenas dos elfos e humanos, que ajudam seus companheiros em assuntos arcanos.
 
         </p>
-    <hr>
+    </div>
 
-    <h2>Os Exilados</h2>
-    <img src="../imagens/racas/Exilados.png" alt="Exilados">
+    <div id="racasExilados">
+        <h2 class = "nomesRacas">Os Exilados</h2>
+        <hr>
+
+        <!--<img src="../imagens/racas/Exilados.png" alt="Exilados">-->
         <p>
             A terra dos Elfos Negros e dos Tiefling <strong>é coberta por guerra, praga e morte</strong>. Ambas as raças lutam eternamente pelas minas de <strong>Obsidiana</strong>, o único recurso valioso da região, criando uma terra onde apenas os fortes sobrevivem.
 	        Ambas as raças são vistas com desdém pelo mundo, sendo consideradas traidoras e mentirosas. Fazendo com que ambas fiquem isoladas em seus territórios.
             A única escola de magia na região é a Escola das Oito Torres, cada torre representa uma escola de magia.
-
         </p>
-    <hr>
+    </div>
 </body>
 </html>

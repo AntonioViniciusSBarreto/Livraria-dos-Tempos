@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&family=Zen+Antique+Soft&display=swap');
-
 body{
     min-height: 100%;
     margin: 0%;
@@ -12,38 +10,43 @@ body{
 }
 
 html { 
-    background: url(imagens/criacaodomundo/Mapa-1500.png) no-repeat center center fixed; 
+    background: url(../imagens/criacaodomundo/Mapa-grande.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+a{
+    color: blue;
+    text-decoration: none;
+}
 
-
-#tituloCriacao, #introducaoCriacao, #criacaoHumanos, #criacaoElfos,#criacaoAnoes{
+#racasTitulo, #racasSumario, #racasAnoes, #racasElfos, #racasHalflings, #racasHumanos, #racasDraconatos, #racasExilados{
     background-color: #f2eecb;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
     margin-left: 5px;
     margin-right: 5px;
-    
 }
 
-#introducaoCriacao, #criacaoHumanos, #criacaoElfos,#criacaoAnoes{
-    font-size: 1.1em;
-    text-align: justify;
-}
-
-#tituloCriacao{
-    font-family: 'Zen Antique Soft', serif;
-    font-size: 1.5em;
+#racasTitulo{
+    font-size: 1.7em;
     text-align: center;
 }
-h2{
-    font-size: 1.35em;
+
+#racasSumario{
+    font-size: 1.1em;
     text-align: justify;
+    width: 25%;
 }
+#racasAnoes, #racasElfos, #racasHalflings, #racasHumanos, #racasDraconatos, #racasExilados{
+    font-size: 1em;
+    text-align: justify;
+    width: 98%;
+}
+
 p{
     margin-left: 23px;
     margin-right: 41px;
+    margin-bottom:5px;
 }
