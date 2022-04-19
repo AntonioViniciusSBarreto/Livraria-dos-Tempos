@@ -6,44 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Livraria dos Tempos</title>
-    <link rel="stylesheet" href="estiloIndex.css">
+    <link rel="stylesheet" href="estilos/estiloIndex.css">
 </head>
 <body>
-    <div id="titulo">
+    <header>
         <h1>Livraria dos Tempos</h1>  
-    </div>
+    </header>
     <nav id ="navegacao">
         <a href="#">Eventos</a>
         <a href="#">Indivíduos</a>
         <a href="#">Organizações</a>
         <a href="#">Magia</a>
     </nav>
-    <div id="sumario">
-        <ul type ="square">
-            <li> <a href="criacaodomundo.html" rel="next" target="_self">Criação do Mundo</a></li>
-            <li><a href="racas/racasIndex.html" rel="next" target="_self">Raças</a></li>
-            <li>Deuses</li>
-            <li>Organizações</li>
-        </ul>
-    </div>
-    <div id = "art_recentes" style="float: 85%;">
-        <ul type ="square">
-            <li>Ordem de Sangue</li>
-            <li>Colégio das Oito Torres</li>
-            <li>Floresta de Oladdra</li>
-            <li>Londinium</li>
-        </ul>
-    </div>
-    <div id = "art_mais_lido">
-        <p>Artigo mais lido</p>
-        <p>Place holder</p>
-    </div>
-    <div id ="musica">
-        <p>Música para leitura</p>
-        <audio preload="metadata" autoplay controls loop>
-            <source src="midia/Bug Catching - Emily A. Sprague.mp3" type="audio/mpeg">
-            <p>Infelizmente seu navegador não consegue reproduir o audio. <a href="midia/Bug Catching - Emily A. Sprague.mp3">Clique aqui para baixar o arquivo MP3</a> </p>
-        </audio>
-    </div>
+    <main>
+        <menu id="ArtigosPopulares">
+            <h2>Artigos Populares</h2>
+            <ul type ="square">
+                <li> <a href="criacaodomundo.html" rel="next" target="_self">Criação do Mundo</a></li>
+                <li><a href="racas/racasIndex.html" rel="next" target="_self">Raças</a></li>
+                <li>Deuses</li>
+                <li>Organizações</li>
+            </ul>
+        </menu>
+        
+        <menu id="ArtigosRecentes">
+                <h2>Artigos Recentes</h2>
+                <ul type ="square">
+                    <li>Ordem de Sangue</li>
+                    <li>Colégio das Oito Torres</li>
+                    <li><a href="Personagens/klara.html">Klara</a></li>
+                    <li>Londinium</li>
+                </ul>
+        </menu>
+        <menu id="ArtigodaSemana">
+                <h2>Artigo da Semana</h2>
+                <p>Place holder</p>
+        </menu>
+            <menu id="Musica">
+                <h2>Música para leitura</h2>
+                <audio preload="metadata" autoplay controls loop>
+                    <source src="estilos/midia/Bug Catching - Emily A. Sprague.mp3" type="audio/mpeg">
+                    <p>Infelizmente seu navegador não consegue reproduir o audio. <a href="midia/Bug Catching - Emily A. Sprague.mp3">Clique aqui para baixar o arquivo MP3</a> </p>
+                </audio>
+            </menu>
+    </main>
 </body>
 </html>

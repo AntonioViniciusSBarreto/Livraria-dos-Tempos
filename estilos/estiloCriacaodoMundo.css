@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+@font-face {
+    font-family: 'Roman Antique';
+    src: url(Fontes/RomanAntique.ttf) format('opentype'),url(Fontes/RomanAntique.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --colorTitulo:#f2eecb;
+    --colorNav:#F9EAC5;
+    --colorTexto:#DBDBAD;
+    --colorSubTitulo: #DBD2AD;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 12px;
+}
+html { 
+    background: url(imagens/criacaodomundo/Mapa-1500.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    min-height: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Zen Antique', serif;;
+}
+
+header{
+    background-color: var(--colorTitulo);
+    font-family: 'Roman Antique', serif;
+    font-size: 24px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+nav{
+    background-color: var(--colorNav);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
+    font-family: 'Roman Antique', serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+nav > a{
+    margin: 30px;
+    color: blue;
+    font-family: 'Roman Antique', serif;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--colorTexto);
+}
+
+
+section{
+    background-color: var(--colorNav);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
+    font-family: 'Zen Antique', serif;
+    font-size: 1.1em;
+    text-align: justify;
+    list-style-position: inside;
+    padding-left: 10px;
+    list-style-position: inside;
+    margin-top: 20px;
+    width: fit-content;
+    padding: 5px;
+}
+
+
+
+h2{
+    font-size: 1.5em;
+    font-family: 'Roman Antique', serif;
+}
+p{
+    margin-left: 23px;
+    margin-right: 41px;
+}
